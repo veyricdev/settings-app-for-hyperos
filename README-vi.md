@@ -15,6 +15,15 @@ Một công cụ tinh gọn giúp tự động trích xuất ứng dụng `Setti
 
 ---
 
+## 📥 Chuẩn Bị: Cách Lấy Nguồn ROM
+
+Trước khi chạy tool, bạn cần tải hệ điều hành ROM chính thức về:
+1. Vào trang web [https://mifirm.net/](https://mifirm.net/).
+2. Đánh tên/mã thiết bị của bạn vào ô tìm kiếm.
+3. Chuyển sang bảng để tải bản **Recovery ROM**. *(Lưu ý: Bắt buộc là đuôi `.zip`! Vui lòng đừng tải lộn bản Fastboot `.tgz` vì nó là bản đã bị bung lõi `payload.bin`, tool tự động này sẽ không định dạng được)*.
+
+---
+
 ## 🚀 CÁCH 1: GIẢI NÉN THUẦN TRÊN WINDOWS NATIVE (KHUYÊN DÙNG)
 
 Phương thức này ép hệ thống PowerShell của Windows kết hợp với sức mạnh của **7-Zip** làm việc, bạn hoàn toàn **không cần Docker** hay kiến thức máy ảo, không lo việc đầy dung lượng ổ C đột ngột.

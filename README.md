@@ -15,6 +15,17 @@ A streamlined tool to automatically extract `Settings.apk` from Android OTA Payl
 
 ---
 
+## 📥 Preparation: Where to Get the ROM
+
+Before running the tools, you need the official ROM file:
+1. Visit [https://mifirm.net/](https://mifirm.net/).
+2. Search for your specific device.
+3. Download the **Recovery ROM** version. *(Note: Must be a `.zip` file! Do not download the Fastboot ROM `.tgz` as it has a different structural layout without the `payload.bin` core)*.
+
+---
+
+
+
 ## 🚀 METHOD 1: EXTRACT ON NATIVE WINDOWS (RECOMMENDED)
 
 This method utilizes Windows PowerShell combined with the power of **7-Zip**. You absolutely **do not need Docker** or virtual machine knowledge, and you won't have to worry about sudden C drive bloating.
